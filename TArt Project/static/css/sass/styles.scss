@@ -17,3 +17,7 @@ $gray: #BDBDBD;
 @import 'theart';
 @import 'watermark';
 @import 'bootstrap';
+
+.main {
+  background-color: $gray-light;
+}
