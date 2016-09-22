@@ -1,0 +1,23 @@
+/*
+Tanveer Art Main Stylesheet
+*/
+
+
+//Gray colours
+$gray-base: #212121;
+$gray-darker: #212121;
+$gray-dark: #424242;
+$gray-light: #BDBDBD;
+$gray-lighter: #FAFAFA;
+$gray: #BDBDBD;
+
+
+//Import components
+@import 'contact';
+@import 'theart';
+@import 'watermark';
+@import 'bootstrap';
+
+.main {
+  background-color: $gray-light;
+}
